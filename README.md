@@ -1,14 +1,12 @@
 Installation
 ============
-The following instructions will set up a more complex bitstarter than the
-one you've done to date. Now you will be recording orders to a database.
+Setup your environment first.  
+See https://github.com/gitkewl/setup.git
 The following commands are to be executed on your EC2 remote machine.
 
 ```sh
-curl https://raw.github.com/startup-class/setup/master/setup.sh | bash
-exit # and then log in again
-git clone https://github.com/startup-class/bitstarter-ssjs-db.git
-cd bitstarter-ssjs-db
+git clone https://github.com/gitkewl/bitstarter-postgres
+cd bitstarter-postgres
 ./setup-ssjs.sh
 ```
 
