@@ -11,6 +11,13 @@ var app = express();
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.set('port', process.env.PORT || 8080);
+app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/static'));
+app.use(express.static(__dirname + '/static/css'));
+app.use(express.static(__dirname + '/static/fonts'));
+app.use(express.static(__dirname + '/static/images'));
+app.use(express.static(__dirname + '/static/javascript'));
+app.use(express.static(__dirname + '/static/media'));
 
 // Render homepage (note trailing slash): example.com/
 app.get('/', function(request, response) {
