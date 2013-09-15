@@ -1,7 +1,6 @@
 Installation
 ============
-Setup your environment first.  
-See https://github.com/gitkewl/setup.git
+Setup your environment first.  See https://github.com/gitkewl/setup.git for details.
 The following commands are to be executed on your EC2 remote machine.
 
 ```sh
